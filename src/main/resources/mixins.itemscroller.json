@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"package": "fi.dy.masa.itemscroller.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"minVersion": "0.8",
+	"client": [
+		"IMixinCraftingResultSlot",
+		"IMixinMerchantScreen",
+		"IMixinScreenWithHandler",
+		"IMixinSlot",
+		"MixinStatusEffectsDisplay",
+		"MixinMerchantScreen",
+		"MixinMerchantScreenHandler",
+		"MixinScreen"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

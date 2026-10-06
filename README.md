@@ -1,3 +1,4 @@
+Unofficial Minecraft 1.21.11 port by HikariServerDev. Modified on October 6, 2026.
 ## Note
 This is a customized version of Masa's itemscroller mod that fixes crafting features for 1.18. Masa's original mod can be found [here](https://github.com/maruohon/itemscroller)
 

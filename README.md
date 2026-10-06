@@ -18,8 +18,7 @@ This branch is ported to Minecraft 1.21.11 (Yarn mappings, malilib 0.27.x, Java 
   Recipes that aren't unlocked in the recipe book fall back to the old slot-by-slot item movement.
 * Rendering was ported to the new GUI renderer (`GuiContext` from malilib).
 
-## This is not Masa's original itemscroller. If you have issues with this mod, please contact Andrews54757 (or open a bug report here).
-
+## This is not Masa's original itemscroller. This is an unofficial 1.21.11 port. For issues with this port, please open an issue in this repository.
 ### What's different?
 Post 1.13, Mojang has changed the crafting mechanics of the game. Before 1.13, crafting was very fast as much of the logic was handled client-side. In 1.13, most of the crafting logic was moved to the server. This broke Itemscroller's fast crafting features, since every ingredient now had to be moved one slot at a time to the crafting grid for it to work. This drastically worsened server-client desync, a compounding problem, leading to an increasing number of failed crafting attempts and accidental ingredient leaks which made afk crafting impossible. 
 
